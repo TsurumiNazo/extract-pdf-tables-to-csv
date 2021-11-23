@@ -1,2 +1,21 @@
-# extract-pdf-tables-to-csv
-Extract the chosen PDF and print in the pages you want, then just press the button, you will get ALL TABLES you need!
+# Extract pdf's tables to csv
+您在工作中是否会有以下困惑——
+
+我丢，怎么要整理这么多PDF，还要把每个PDF里面的表格全部都提取出来，再分门别类的统计信息（。真是种重复而又不用动脑的苦力劳动o(╥﹏╥)o
+
+现在好啦！您有了这款桌面工具，相信一定能简化一些你的工作！
+
+### 使用到的技术
+
+- 编程语言：Python
+- 第三方库：pdfplumber、panda、PySide2
+
+### 使用方法：
+
+> 1. 选择要提取表格的PDF文件
+> 2. 选择PDF中需要提取表格所在页数（或全部）
+> 3. 选择结果输出路径与文件名（默认桌面Result.csv）
+> 4. 点击“提取表格”！
+> 5. 如果需要，可以直接帮你打开提取好的文件
+
+※ 您可以下载下来文件自行构建，也当然可以在Releases中直接下载已经打包好的工具~
